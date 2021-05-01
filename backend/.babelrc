@@ -1,0 +1,18 @@
+{
+  "presets": [ "@babel/preset-env" ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@application": "./src/application",
+        "@controller": "./src/application/controller",
+        "@dao": "./src/application/dao",
+        "@router": "./src/application/router",
+        "@config": "./src/config",
+        "@database": "./src/database",
+        "@middlewares": "./src/middlewares",
+        "@utils": "./src/utils"
+      }
+    }]
+  ]
+}
