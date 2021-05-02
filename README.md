@@ -24,8 +24,8 @@ module.exports = {
     MYSQL_HOST: "toy.c5n11lms5uan.ap-northeast-2.rds.amazonaws.com",
     MYSQL_PORT: "3306",
     MYSQL_DBNAME: "music",
-    MYSQL_USERNAME: "client",
-    MYSQL_PASSWORD: "1q2w3e4r!@",
+    MYSQL_USERNAME: "root",
+    MYSQL_PASSWORD: "1q2w3e4r1q2w",
     MYSQL_POOL_MAX: "5",
     MYSQL_POOL_IDLE: "6000",
     MYSQL_POOL_ACQUIRE: "30000"
