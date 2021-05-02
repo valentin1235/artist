@@ -6,21 +6,23 @@ class Music extends Component {
   constructor() {
     super();
     this.state = {
-      musicList: "Music List"
+      musicList: "Music List",
+      data: ""
     }
   }
-  getMusics = () => {
-    const post = "Music List";
-    this.setState({
-      musicList: "Music List"
-    });
-  }
+
+  // TODO: get data from backend server and render page with them
+  getData = () => {
+    fetch(`http://ec2-3-34-0-45.ap-northeast-2.compute.amazonaws.com:3000/songs`, {
+      method: "GET"
+    }).then((res)=>console.log(res.json()));
+  };
 
   render() {
     return (
       <div className="App">
         <div className="black-nav">
-          개발 blog
+          {  }
         </div>
         <div className="list">
           <h3> { this.state.musicList } </h3>
