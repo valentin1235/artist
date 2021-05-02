@@ -1,11 +1,12 @@
-## Build redis
+# Backend
+### Build redis
 
 1. pull the redis image from docker hub(make sure that the docker daemon is running on your background!) \
    `docker pull redis`
 2. create the container by pulled docker image \
    `docker run -d -p 6379:6379 --name redisC redis`
 
-## Build backend application
+### Build backend application
 
 1. go to backend directory \
    `cd backend`
@@ -44,7 +45,7 @@ module.exports = {
    `docker run -d -p 3000:3000 --name appC app`
 
 
-## API document
+### API document
 > https://documenter.getpostman.com/view/10893095/TzRLmWfs
 1. you can import requests from the document by click `run in postman` as following image.
 <img width="583" alt="스크린샷 2021-05-02 오후 11 04 09" src="https://user-images.githubusercontent.com/57642813/116815907-bbdbf580-ab9a-11eb-8bd4-63d45f4bf0e1.png">
