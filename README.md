@@ -31,7 +31,7 @@ module.exports = {
     MYSQL_POOL_ACQUIRE: "30000"
 }
 ```
-3. back to the `backend` directory
+3. back to the `backend` directory \
 `cd ..`
 
 3. build application image \
