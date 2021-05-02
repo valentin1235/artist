@@ -50,7 +50,7 @@ module.exports = {
 1. you can import requests from the document by click `run in postman` as following image.
 <img width="583" alt="스크린샷 2021-05-02 오후 11 04 09" src="https://user-images.githubusercontent.com/57642813/116815907-bbdbf580-ab9a-11eb-8bd4-63d45f4bf0e1.png">
 
-2. send requests to the EC2 server with the following `host` and `port` \
+2. send requests to the EC2 server with the following `host` and `port`
 - `http://ec2-3-34-0-45.ap-northeast-2.compute.amazonaws.com:3000`
 
 
