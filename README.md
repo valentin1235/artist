@@ -31,8 +31,10 @@ module.exports = {
     MYSQL_POOL_ACQUIRE: "30000"
 }
 ```
+3. back to the `backend` directory
+`cd ..`
 
-4. build application image \
+3. build application image \
 `docker build -t app .`
 4. run created image as docker container \
 `docker run -d -p 3000:3000 --name appC app`
