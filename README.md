@@ -55,13 +55,5 @@ module.exports = {
 
 
 # Frontend
-### Build react app in local
-1. go to the work directory \
-`cd ./frontend/src`
-2. start react app \
-`npm start`
-
-### Defined url
-- `http://localhost:3001/music`
-- `http://localhost:3001/login`
+- currently frontend is not available
 
