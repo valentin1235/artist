@@ -1,4 +1,6 @@
 # Backend
+### Purpose
+- provide simple song management service for the artists
 ### Build redis
 
 1. pull the redis image from docker hub(make sure that the docker daemon is running on your background!) \
